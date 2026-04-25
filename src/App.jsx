@@ -34,7 +34,7 @@ function App() {
     };
 
     try {
-      const respuesta = await fetch("http://localhost:3010/calcularValorFinal", {
+      const respuesta = await fetch("https://back-iva-descuento.onrender.com/calcularValorFinal", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
